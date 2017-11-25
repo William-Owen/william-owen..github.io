@@ -2,6 +2,6 @@ module.exports = {
   siteMetadata: {
     title: `Gatsby Default Starter`,
   },
-  pathPrefix: `/William-Owen.github.io`,
+  pathPrefix: `/`,
   plugins: [`gatsby-plugin-react-helmet`],
 }
