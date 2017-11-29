@@ -7,6 +7,8 @@ module.exports = {
 
 	},
 
+	pathPrefix: `/project-name`,
+
 	plugins: [
 
 		`gatsby-plugin-react-helmet`,
