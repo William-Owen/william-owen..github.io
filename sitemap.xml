@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url> <loc>http://www.william-owen.co.uk/tags</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://www.william-owen.co.uk/tags/latin</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://www.william-owen.co.uk/tags/sample</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://www.william-owen.co.uk/tags/code</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://www.william-owen.co.uk/tags/website</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://www.william-owen.co.uk/code-test-example</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://www.william-owen.co.uk/first-post</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://www.william-owen.co.uk/404/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://www.william-owen.co.uk/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://www.william-owen.co.uk/articles/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://www.william-owen.co.uk/contact/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://www.william-owen.co.uk/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://www.william-owen.co.uk/projects/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://www.william-owen.co.uk/tech/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://www.william-owen.co.uk/404.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
