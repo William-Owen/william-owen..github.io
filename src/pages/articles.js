@@ -11,22 +11,9 @@ export default function Index({ data }) {
 	return (
 
 			<main>
-
-				<section className="main-feature">
-
-					<div className="page">
-
-						<h1>Technology, Engagement and Elegance</h1>
-
-						<p>Over 20 years experaince delivering customer faceing websites, internet based solutions and creative visual design for a wide range of companies and organisations.</p>
-
-					</div>
-
-				</section>
-
 				<section className="posts-listing page">
 
-					<h2>Recent Articles</h2>
+					<h2>All Articles</h2>
 
 					{posts.filter(post => post.node.frontmatter.title.length > 0).map(({ node: post }) => {
 
@@ -44,6 +31,12 @@ export default function Index({ data }) {
 
 									</header>
 
+									<main>
+
+										<p className="post-excerpt">{post.excerpt}</p>
+
+									</main>
+
 								</article>
 
 							);
@@ -58,10 +51,11 @@ export default function Index({ data }) {
 }
 
 export const pageQuery = graphql`
-	query FullIndexQuery {
+	query IndexQuery {
 		allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
 			edges {
 				node {
+					excerpt(pruneLength: 250)
 					id
 					frontmatter {
 						title

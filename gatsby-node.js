@@ -68,8 +68,11 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
     }
   }`)
   .then(result => {
+
     if (result.errors) {
+
       return Promise.reject(result.errors)
+
     }
 
     const posts = result.data.allMarkdownRemark.edges;
@@ -77,9 +80,12 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
     createTagPages(createPage, posts);
 
     // Create pages for each markdown file.
+
     posts.forEach(({ node }, index) => {
+
       const prev = index === 0 ? false : posts[index - 1].node;
       const next = index === posts.length - 1 ? false : posts[index + 1].node;
+
       createPage({
         path: node.frontmatter.path,
         component: blogPostTemplate,
@@ -88,6 +94,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
           next
         }
       });
+
     });
 
     return posts;

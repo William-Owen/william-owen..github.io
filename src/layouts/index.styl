@@ -1,21 +1,322 @@
+$var-font-header 			= "proxima-nova", Arial, HelveticaNeue, sans-serif
+$var-font-body 				= "proxima-nova", Arial, HelveticaNeue, sans-serif
+$var-font-article			= "proxima-nova", Arial, HelveticaNeue, sans-serif
+
+$color-brand-pink 			= #e8a9bd
+$color-brand-hot-pink		= #d76797
+$color-brand-yellow 		= #f2f24a
+$color-brand-light-blue		= #98e8f8
+$color-brand-blue 			= #508ad6
+$color-brand-marine-blue	= #598b94
+$color-brand-light-blue 	= #98e8f8
+$color-brand-dusk-blue		= #5d757c
+$color-brand-green 			= #81d46e
+$color-brand-dark-grey 		= #70737a
+$color-brand-mid-grey 		= #bec0c1
+$color-brand-brown			= #86756e
+$color-brand-tan			= #b6a89b
+$color-brand-light-grey 	= #f1f1f1
+$color-brand-purple 		= #6e5c95
+$color-brand-red 			= #a53c48
+$color-brand-white 			= #fefefe
+$color-brand-black 			= #434343
+$color-brand-orange 		= #eb7633
+
+// Assignment
+
+$color-ocean 				= $color-brand-light-grey
+$color-ocean-lines 			= #ddd
+$color-key 					= #DA1A43
+$color-body-font 			= $color-brand-dark-grey
+$color-body-font-soft 		= lighten( $color-brand-dark-grey, 10 )
+
+$color-feature = $color-brand-red
+
 html
 
-	font-family sans-serif
+	font-family $var-font-body
 	-ms-text-size-adjust 100%
 	-webkit-text-size-adjust 100%
-	font 112.5%/1.45em georgia, serif
+	font-weight 200
 	box-sizing border-box
 	overflow-y scroll
+	background $color-ocean
 
 body
 
 	margin 0
 	color hsla(0, 0%, 0%, 0.8)
-	font-family georgia, serif
 	font-weight normal
 	word-wrap break-word
 	font-kerning normal
-	-moz-font-feature-settings "kern", "liga", "clig", "calt"
-	-ms-font-feature-settings "kern", "liga", "clig", "calt"
-	-webkit-font-feature-settings "kern", "liga", "clig", "calt"
 	font-feature-settings "kern", "liga", "clig", "calt"
+	color $color-body-font
+	font-size: 15px;
+	color: #292d33;
+	word-wrap: break-word;
+	-webkit-text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	// text-rendering: optimizeLegibility;
+	text-rendering: geometricPrecision;
+
+h1, h2, h3, h4, h5, h6
+
+	font-family $var-font-header
+	font-weight normal
+	color $color-feature
+	font-weight 300
+
+	a
+
+		color $color-feature
+
+h1
+
+	font-size 64px
+	font-weight 300
+	letter-spacing -.34px
+	margin 0
+	line-height: 1.2;
+
+a
+
+	text-decoration none
+	color $color-brand-red
+
+.page
+
+	max-width 800px
+	padding 20px
+	margin 0 auto
+
+footer.site-footer
+
+	background darken( $color-ocean, 5 )
+	padding 60px 0
+
+	.page
+
+		color darken( $color-ocean, 40 )
+
+	nav
+
+		a
+
+			display block
+			padding 0 0 10px 0
+			margin 0 0 10px 0
+			border-bottom 1px solid darken( $color-ocean-lines, 5 )
+
+			&:last-child
+
+				border 0
+
+	p.copyright
+
+		text-align center
+		font-size 14px
+		padding 30px 0 0 0
+
+	.pride
+
+		padding 40px 0
+		margin 40px 0
+		text-align center
+
+		h4
+
+			display block
+			margin 0 auto 40px
+			font-size 18px
+			line-height 1.5
+			color darken( $color-ocean, 55 )
+			max-width 600px
+
+		a
+
+			padding 20px
+			text-align center
+			display inline-block
+			width 150px
+			border-right 1px solid darken( $color-ocean-lines, 5 )
+
+			&:last-child
+
+				border none
+
+		p
+
+			padding-bottom 0
+			margin-bottom 0
+
+		img
+
+			width 50px
+
+header.site-header
+
+	background $color-feature
+	border-top 2px solid $color-ocean
+
+	.availability
+
+		position absolute
+		top 0
+		right 10px
+		background $color-ocean
+		color $color-brand-black
+		padding 4px 10px 4px
+		border-radius 0 0 10px 10px
+		font-size 11px
+
+		a
+
+			display inline-block
+			padding 4px
+
+	.page
+
+		position relative
+
+	.avatar
+
+		 display inline-block
+		 width 55px
+		 height 55px
+		 background-position 50% 50%
+		 background-size cover
+		 border-radius 50%
+		 position absolute
+		 border 3px solid $color-brand-white
+		 top 10px
+		 left 10px
+
+	h1
+
+		margin 0 0 0 70px
+		font-size 22px
+
+		a
+
+			color $color-brand-white
+
+		.sub-title
+
+			display block
+			font-size 14px
+			color lighten( $color-feature, 35 )
+
+	nav
+
+		border-top 1px solid lighten( $color-feature, 13 )
+		border-bottom 1px solid lighten( $color-feature, 13 )
+
+		a
+
+			display inline-block
+			padding-right 10px
+			margin-right 10px
+			border-right 1px solid lighten( $color-feature, 13 )
+			color lighten( $color-feature, 35 )
+
+			&:last-child
+
+				border none
+
+.main-feature
+
+	background $color-feature
+	color $color-white
+	text-align center
+	border-bottom 1px solid $color-brand-white
+
+	.page
+
+		padding 60px 0
+
+	h1
+
+		color $color-brand-white
+
+	p
+
+		color lighten( $color-feature, 35 )
+		max-width: 765px;
+		font-size: 24px;
+		line-height: 32px;
+		margin: 36px auto 0;
+
+article.article
+
+	font-family $var-font-article
+	font-size 16px
+	margin-bottom 60px
+
+	main
+
+		max-width 650px
+		margin 0 auto
+
+		P:first-child
+
+			font-weight 600
+			font-size 1.7em
+			line-height: 1.4em;
+
+	header
+
+		padding 60px 0
+		max-width 650px
+		margin 0 auto
+
+		h1
+
+			font-size 44px
+
+	p
+	li
+
+		letter-spacing: 0.01rem;
+		font-size: 1.4rem;
+		line-height: 1.75em;
+		color: darken( $color-body-font, 15 )
+
+		&:last-child
+
+			margin-bottom 0
+
+	p
+
+		margin: 0 0 1.2em 0;
+
+.tech-interests
+
+	span
+
+		display inline-block
+		padding 0px 12px
+		margin 2px
+		border-radius 5px
+		background $color-feature
+		color $color-ocean
+
+.post-listing-item
+
+	border-bottom 1px solid $color-ocean-lines
+	padding 10px 0
+
+	p
+
+		margin 0
+
+	header
+
+		h1
+
+			font-size 18px
+
+		.post-date-time
+
+			color $color-body-font-soft
+			font-size 12px
