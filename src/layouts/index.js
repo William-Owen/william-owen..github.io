@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
-require("prismjs/themes/prism-solarizedlight.css")
+// require("prismjs/themes/prism-solarizedlight.css")
 
 import './index.styl'
 
@@ -69,6 +69,12 @@ const TemplateWrapper = ({ children }) => (
 
         </nav>
 
+        <div className="contact">
+
+          <p>You can me contact on <a href="tel:+442070978899">+44 (0) 207 097 8899</a></p>
+
+        </div>
+
         <div className="pride">
 
           <h4>
@@ -109,6 +115,7 @@ const TemplateWrapper = ({ children }) => (
 
         </div>
 
+        <p className="company-details">William Owen UK LIMITED registered in England no. 08243425. VAT number 152978378</p>
         <p className="copyright">&copy; 2017 William Owen UK LIMITED</p>
 
       </div>

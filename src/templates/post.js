@@ -20,7 +20,7 @@ export default function Template({ data, pathContext }) {
 
         <h2 className="date">{ post.frontmatter.date } </h2>
 
-        <div className="blog-post-content" dangerouslySetInnerHTML={{ __html: post.html }} />
+        <article className="article blog-post-content" dangerouslySetInnerHTML={{ __html: post.html }} />
 
         <Tags list={post.frontmatter.tags || []} />
         <div className="navigation">

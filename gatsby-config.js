@@ -7,7 +7,7 @@ module.exports = {
 
 	},
 
-	pathPrefix: `/project-name`,
+	pathPrefix: `/`,
 
 	plugins: [
 

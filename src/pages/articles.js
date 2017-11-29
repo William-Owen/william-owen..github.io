@@ -11,7 +11,8 @@ export default function Index({ data }) {
 	return (
 
 			<main>
-				<section className="posts-listing page">
+
+				<section className="posts-listing-verbose page">
 
 					<h2>All Articles</h2>
 
