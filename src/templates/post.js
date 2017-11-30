@@ -14,27 +14,53 @@ export default function Template({ data, pathContext }) {
 
       <Helmet title={`Gatsby Blog - ${post.frontmatter.title}`} />
 
-      <div className="blog-post page">
+      <article className="article blog-post page">
 
-        <h1 className="title"> {post.frontmatter.title} </h1>
+        <header>
 
-        <h2 className="date">{ post.frontmatter.date } </h2>
+          <h1 className="title"> {post.frontmatter.title} </h1>
 
-        <article className="article blog-post-content" dangerouslySetInnerHTML={{ __html: post.html }} />
+        </header>
 
-        <Tags list={post.frontmatter.tags || []} />
-        <div className="navigation">
-          {prev &&
-            <Link className="link prev" to={prev.frontmatter.path}>
-              {prev.frontmatter.title}
-            </Link>}
-          {next &&
-            <Link className="link next" to={next.frontmatter.path}>
-              {next.frontmatter.title}
-            </Link>}
-        </div>
+        <main className="blog-post-content" dangerouslySetInnerHTML={{ __html: post.html }} />
 
-      </div>
+        <footer>
+
+          <p className="date-time">Article Published: { post.frontmatter.date } By William Owen</p>
+
+          <h5>Related Tags</h5>
+
+          <Tags list={post.frontmatter.tags || []} />
+
+          <h5>Next Articles</h5>
+
+          <nav className="next-previous-article">
+
+            {prev &&
+
+              <Link className="link prev" to={prev.frontmatter.path}>
+
+                {prev.frontmatter.title}
+
+              </Link>
+
+            }
+
+            {next &&
+
+              <Link className="link next" to={next.frontmatter.path}>
+
+                {next.frontmatter.title}
+
+              </Link>
+
+            }
+
+          </nav>
+
+          </footer>
+
+      </article>
 
     </div>
 

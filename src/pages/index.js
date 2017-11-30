@@ -16,7 +16,7 @@ export default function Index({ data }) {
 
 					<div className="page">
 
-						<h1>Technology, Engagement and Elegance</h1>
+						<h1>Technical solutions that deliver elegent experiences for humans</h1>
 
 						<p>Over 20 years experaince delivering customer faceing websites, internet based solutions and creative visual design for a wide range of companies and organisations.</p>
 
@@ -32,7 +32,7 @@ export default function Index({ data }) {
 
 							return (
 
-								<article className="post-listing-item" key={post.id}>
+								<article className="PostListingItem" key={post.id}>
 
 									<header>
 

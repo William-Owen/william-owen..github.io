@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
+import PostListingItem from '../components/PostListingItem';
 
 export default function Index({ data }) {
 
@@ -18,31 +19,13 @@ export default function Index({ data }) {
 
 					{posts.filter(post => post.node.frontmatter.title.length > 0).map(({ node: post }) => {
 
-							return (
+						return (
 
-								<article className="post-listing-item" key={post.id}>
+							<PostListingItem post={post} />
 
-									<header>
+						);
 
-										<h1 className="post-title">
-
-											<Link to={post.frontmatter.path}>{ post.frontmatter.title }</Link>
-
-										</h1>
-
-									</header>
-
-									<main>
-
-										<p className="post-excerpt">{post.excerpt}</p>
-
-									</main>
-
-								</article>
-
-							);
-
-						})}
+					})}
 
 				</section>
 

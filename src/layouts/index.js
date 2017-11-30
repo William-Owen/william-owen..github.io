@@ -3,8 +3,6 @@ import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
-// require("prismjs/themes/prism-solarizedlight.css")
-
 import './index.styl'
 
 const TemplateWrapper = ({ children }) => (
@@ -39,9 +37,9 @@ const TemplateWrapper = ({ children }) => (
         <div className="page">
 
           <Link to="/">Home</Link>
-          <Link to="/about/">About</Link>
+          {/*<Link to="/about/">About</Link>*/}
           <Link to="/articles/">Articles</Link>
-          <Link to="/projects">Projects</Link>
+          {/*<Link to="/projects">Projects</Link>*/}
           <Link to="/tech">Tech Stack</Link>
           <Link to="/contact/">Contact</Link>
 
@@ -78,7 +76,7 @@ const TemplateWrapper = ({ children }) => (
         <div className="pride">
 
           <h4>
-            This wabsite was hand crafted, without the use of existing templates, using some of these awesome techknologies and services.
+            This wabsite was hand crafted. Its was designed without the use of templates or bloated frameworks. It was created using some of these awesome techknologies and services.
           </h4>
 
           <a href="https://www.gatsbyjs.org/">
