@@ -36,12 +36,12 @@ const TemplateWrapper = ({ children }) => (
 
         <div className="page">
 
-          <Link to="/">Home</Link>
-          {/*<Link to="/about/">About</Link>*/}
-          <Link to="/articles/">Articles</Link>
-          {/*<Link to="/projects">Projects</Link>*/}
-          <Link to="/tech">Tech Stack</Link>
-          <Link to="/contact/">Contact</Link>
+          <Link activeClassName="active" exact to="/"><span>Home</span></Link>
+          {/*<Link activeClassName="active" exact to="/about/">About</Link>*/}
+          <Link activeClassName="active" exact to="/articles/"><span>Articles</span></Link>
+          {/*<Link activeClassName="active" exact to="/projects">Projects</Link>*/}
+          <Link activeClassName="active" exact to="/tech"><span>Tech Stack</span></Link>
+          <Link activeClassName="active" exact to="/contact/"><span>Contact</span></Link>
 
         </div>
 
@@ -75,9 +75,7 @@ const TemplateWrapper = ({ children }) => (
 
         <div className="pride">
 
-          <h4>
-            This wabsite was hand crafted. Its was designed without the use of templates or bloated frameworks. It was created using some of these awesome techknologies and services.
-          </h4>
+          <h4>This website was handcrafted. It was designed without the use of templates or bloated frameworks. It was created using some of these excellent technologies and services.</h4>
 
           <a href="https://www.gatsbyjs.org/">
 

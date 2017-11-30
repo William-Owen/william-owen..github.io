@@ -5,9 +5,26 @@ import PostListingItem from '../components/PostListingItem';
 
 export default function Index({ data }) {
 
-	console.info(data);
-
 	const { edges: posts } = data.allMarkdownRemark;
+
+    let allTags = {};
+
+    posts.forEach(({ node }) => {
+
+        if (node.frontmatter.tags) {
+
+          node.frontmatter.tags.forEach(tag => {
+
+              if (!allTags[tag]) {
+                allTags[tag] = [];
+              }
+              allTags[tag].push(node);
+
+            });
+
+        }
+
+     });
 
 	return (
 
@@ -29,6 +46,28 @@ export default function Index({ data }) {
 
 				</section>
 
+				<aside className="tag-list">
+
+					<h2>Tags</h2>
+
+					{Object.keys(allTags).map(tagName => {
+
+						const tags = allTags[tagName];
+
+						return (
+
+							<Link key={tagName} to={`/tags/${tagName}`}>
+
+								{tagName}
+
+							</Link>
+
+						);
+
+					})}
+
+				</aside>
+
 			</main>
 
 	);
@@ -44,7 +83,8 @@ export const pageQuery = graphql`
 					frontmatter {
 						title
 						date(formatString: "MMMM DD, YYYY")
-						path
+						path,
+						tags
 					}
 				}
 			}

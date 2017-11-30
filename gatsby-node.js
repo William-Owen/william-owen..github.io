@@ -10,10 +10,12 @@ const createTagPages = (createPage, edges) => {
       if (node.frontmatter.tags) {
         node.frontmatter.tags
           .forEach(tag => {
+
             if (!posts[tag]) {
               posts[tag] = [];
             }
             posts[tag].push(node);
+
           });
       }
     });

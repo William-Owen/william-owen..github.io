@@ -17,9 +17,6 @@ export default function Tags({ pathContext }) {
 
     // This template is listing posts from a single tag
 
-    console.info('allTagCollections', allTagCollections);
-    console.info('thisTagCollection', thisTagCollection);
-
     return (
 
       <main>
@@ -84,7 +81,7 @@ export default function Tags({ pathContext }) {
 
         </section>
 
-        <Link className="all-articles-link"  to="/artiicles">View all posts</Link>
+        <Link className="all-articles-link"  to="/articles">View all posts</Link>
 
       </main>
 

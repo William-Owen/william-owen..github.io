@@ -202,7 +202,7 @@ header.site-header
 		border-radius 8px
 		font-size 0.7rem
 
-		@media (min-width: 800px)
+		@media (min-width: 700px)
 
 			border-radius 0 0 8px 8px
 			position absolute
@@ -230,8 +230,12 @@ header.site-header
 		 border-radius 50%
 		 position absolute
 		 border 3px solid $color-brand-white
-		 top 10px
 		 left 10px
+		 top 22px
+
+		@media (min-width: 415px)
+
+			top 14px
 
 	h1
 
@@ -245,11 +249,14 @@ header.site-header
 
 		.sub-title
 
-			margin-top 5px
 			display block
 			font-size 0.9rem
 			line-height 1.2rem
 			color lighten( $color-feature, 35 )
+
+			@media (max-width: 415px)
+
+				margin-top 5px
 
 	nav
 
@@ -266,11 +273,24 @@ header.site-header
 			padding-right 10px
 			margin 0 10px 10px 0
 			border-right 1px solid lighten( $color-feature, 13 )
-			color lighten( $color-feature, 35 )
+			color lighten( $color-feature, 40 )
+
+			span
+
+				padding 0 2px 4px
+
+				&:hover
+
+					color $color-brand-white
+
+			&.active span
+
+				color $color-brand-white
+				border-bottom 2px solid $color-brand-white
 
 			&:last-child
 
-				border none
+				border-right none
 
 a[href^="tel"]
 
@@ -393,6 +413,11 @@ article.article
 		margin 0 2px 2px 0
 		background $color-brand-red
 		color $color-brand-white
+
+aside.tag-list
+
+	text-align center
+	padding 20px
 
 .tech-interests
 

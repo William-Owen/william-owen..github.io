@@ -7,7 +7,7 @@ tags: ["website"]
 
 As a web developer, I should have a website. There is that old expression ["Eat Your Own Dog Food"](https://en.wikipedia.org/wiki/Eating_your_own_dog_food), and I would be suspicious of a web developer who tried to sell me their services who didn't have one.
 
-As a web designer and developer, I should use the latest tech and have lots of lovely modern design with great features to show off what I can do. But what I can do is continuously evolving as new ideas, techniques and platforms become available. Design trends are both fleeting and subjective. I love web design and development there is no one design trend or platform that I think I could settle on being the one that fundamentally defines my company or me.
+As a web designer and developer, I should really use the latest tech and have implement lots of lovely modern design with great features to show off what I can do. However 'the latest tech' is continuously evolving as new ideas, techniques and platforms become available. Design trends are both fleeting and subjective. I love web design and development there is no one style of design or technical platform that I think I could settle on being the one that fundamentally defines my company or me.
 
 The site would need to represent the pinnacle of my creative and design ability while building on the shifting sands of the modern web development technique - the site was simply impossible.
 
