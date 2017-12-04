@@ -158,10 +158,23 @@ footer.site-footer
 		margin 40px 0
 		text-align center
 
+		.also-thanks
+
+			a
+
+				width auto
+
 		h4
 
-			display block
 			margin 0 auto 40px
+			font-size 1.2rem
+			line-height 1.7rem
+			color darken( $color-ocean, 55 )
+			max-width 600px
+
+		h5
+
+			margin 20px auto 20px
 			font-size 1.2rem
 			line-height 1.7rem
 			color darken( $color-ocean, 55 )
@@ -194,7 +207,7 @@ footer.site-footer
 header.site-header
 
 	background $color-feature
-	border-top 2px solid $color-ocean
+	position relative
 
 	.availability
 
@@ -226,23 +239,23 @@ header.site-header
 	.avatar
 
 		 display inline-block
-		 width 55px
-		 height 55px
+		 width 70px
+		 height 70px
 		 background-position 50% 50%
 		 background-size cover
-		 border-radius 50%
+		 border-radius 10px
 		 position absolute
 		 border 3px solid $color-brand-white
 		 left 10px
-		 top 22px
+		 top 5px
 
 		@media (min-width: 415px)
 
-			top 14px
+			top 6px
 
 	h1
 
-		margin 0 0 0 70px
+		margin 0 0 0 80px
 		font-size 1.7rem
 		line-height 2rem
 
@@ -313,9 +326,14 @@ a[href^="tel"]
 
 	h1
 
-		font-size 2.8rem
-		line-height 3.5rem
+		font-size 3.4rem
+		line-height 4.0rem
 		color $color-brand-white
+
+		@media (max-width: 600px)
+
+			font-size 2.4rem
+			line-height 2.8rem
 
 	p
 

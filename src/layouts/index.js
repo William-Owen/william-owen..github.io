@@ -21,15 +21,19 @@ const TemplateWrapper = ({ children }) => (
         <h1>
 
           <Link to="/">William Owen UK Limited</Link>
-          <span className="sub-title">Internet Development Consultatancy and Contracting</span>
+          <span className="sub-title">London based Internet Development Consultatancy and Contracting</span>
 
         </h1>
 
-        <div className="availability">
+        {/*
 
-          <Link to="/contact/">Currently available for project work</Link>
+          <div className="availability">
 
-        </div>
+           <Link to="/contact/">Currently available for project work</Link>
+
+          </div>
+
+        */}
 
       </div>
 
@@ -170,7 +174,20 @@ const TemplateWrapper = ({ children }) => (
 
           </a>
 
+          <h5>Also thanks to: -</h5>
+
+          <div className="also-thanks">
+
+            <a href="http://prismjs.com/">PrismJS</a>
+            <a href="https://www.npmjs.com/package/react-svg">react-svg</a>
+            <a href="https://typekit.com/">Adobe Typekit</a>
+
+
+          </div>
+
         </div>
+
+
 
         <p className="company-details">William Owen UK LIMITED registered in England no. 08243425. VAT number 152978378</p>
         <p className="copyright">&copy; 2017 William Owen UK LIMITED</p>

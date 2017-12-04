@@ -1,7 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import Link from '../components/Link';
-import Tags from '../components/Tags';
+import TagsList from '../components/TagsList';
 
 export default function Template({ data, pathContext }) {
 
@@ -30,7 +30,7 @@ export default function Template({ data, pathContext }) {
 
           <h5>Related Tags</h5>
 
-          <Tags list={post.frontmatter.tags || []} />
+          <TagsList list={post.frontmatter.tags || []} />
 
           <h5>Next Articles</h5>
 

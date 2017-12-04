@@ -1,6 +1,7 @@
 import React from 'react';
 import GatsbyLink from 'gatsby-link';
 import PostListingItem from '../components/PostListingItem';
+import TagsList from '../components/TagsList';
 
 // import HomeIcon from 'react-icons/lib/fa/home';
 // import TagsIcon from 'react-icons/lib/fa/tags';
@@ -57,7 +58,7 @@ export default function Tags({ pathContext }) {
 
         <section className="posts-listing-verbose page">
 
-          <h2>Tags</h2>
+          <h2>All Tags</h2>
 
           <nav className="tag-list">
 
@@ -67,11 +68,7 @@ export default function Tags({ pathContext }) {
 
               return (
 
-                <GatsbyLink key={tagName} to={`/tags/${tagName}`}>
-
-                  {tagName}
-
-                </GatsbyLink>
+                <GatsbyLink key={tagName} to={`/tags/${tagName}`}> {tagName} </GatsbyLink>
 
               );
 

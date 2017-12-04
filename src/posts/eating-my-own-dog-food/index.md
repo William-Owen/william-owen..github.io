@@ -1,7 +1,7 @@
 ---
 path: "/eating-my-own-dog-food"
 date: "2017-07-12T00:00:00.000Z"
-title: "Eating my own dog food"
+title: "Creating my own website and 'Eating my own dog food'"
 tags: ["Website"]
 ---
 

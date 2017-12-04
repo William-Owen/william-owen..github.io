@@ -16,7 +16,7 @@ export default function Index({ data }) {
 
 					<div className="page">
 
-						<h1>Technical solutions that deliver elegent experiences for humans</h1>
+						<h1>Technical solutions that deliver elegent experiences.</h1>
 
 						<p>Over 20 years experience delivering customer-facing websites, internet-based solutions and creative visual design for a wide range of companies and organisations.</p>
 

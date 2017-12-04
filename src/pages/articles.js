@@ -46,27 +46,29 @@ export default function Index({ data }) {
 
 				</section>
 
-				<aside className="tag-list">
+				{/*
 
-					<h2>Tags</h2>
+					<aside className="tag-list">
 
-					{Object.keys(allTags).map(tagName => {
+						<h2>Tags</h2>
 
-						const tags = allTags[tagName];
+						{Object.keys(allTags).map(tagName => {
 
-						return (
+							return (
 
-							<Link key={tagName} to={`/tags/${tagName}`}>
+								<Link key={tagName} to={`/tags/${tagName}`}>
 
-								{tagName}
+									{tagName}
 
-							</Link>
+								</Link>
 
-						);
+							);
 
-					})}
+						})}
 
-				</aside>
+					</aside>
+
+				*/}
 
 			</main>
 
