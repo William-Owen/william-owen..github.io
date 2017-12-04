@@ -1,28 +1,32 @@
 {
   "assetsByChunkName": {
+    "path---tags-user-experience": [
+      "path---tags-user-experience-808041e3db69fa881a9f.js",
+      "path---tags-user-experience-808041e3db69fa881a9f.js.map"
+    ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-e88e11f07576e897fc13.js",
-      "component---src-pages-index-js-e88e11f07576e897fc13.js.map"
+      "component---src-pages-index-js-5aa9d3acdac57d7efa5b.js",
+      "component---src-pages-index-js-5aa9d3acdac57d7efa5b.js.map"
     ],
     "component---src-templates-tags-js": [
-      "component---src-templates-tags-js-a8badc8a16df0f6578b3.js",
-      "component---src-templates-tags-js-a8badc8a16df0f6578b3.js.map"
+      "component---src-templates-tags-js-0febb4a53c849f1232af.js",
+      "component---src-templates-tags-js-0febb4a53c849f1232af.js.map"
     ],
     "path---tech": [
       "path---tech-a0e39f21c11f6a62c5ab.js",
       "path---tech-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---eating-my-own-dog-food": [
-      "path---eating-my-own-dog-food-57af7ff3527b6123ffb4.js",
-      "path---eating-my-own-dog-food-57af7ff3527b6123ffb4.js.map"
+      "path---eating-my-own-dog-food-0109828bab75418da27b.js",
+      "path---eating-my-own-dog-food-0109828bab75418da27b.js.map"
     ],
     "path---tags": [
-      "path---tags-eb389d3a68f45adcba76.js",
-      "path---tags-eb389d3a68f45adcba76.js.map"
+      "path---tags-05eb85da2fe2bbd8395c.js",
+      "path---tags-05eb85da2fe2bbd8395c.js.map"
     ],
     "path---articles": [
-      "path---articles-cb388b622f5f696c7eac.js",
-      "path---articles-cb388b622f5f696c7eac.js.map"
+      "path---articles-79c0fe0d26e02b761098.js",
+      "path---articles-79c0fe0d26e02b761098.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -32,29 +36,37 @@
       "component---src-pages-contact-js-7ac9a7177bf5a738d63b.js",
       "component---src-pages-contact-js-7ac9a7177bf5a738d63b.js.map"
     ],
+    "path---tags-react": [
+      "path---tags-react-4d5fc15462d128f47187.js",
+      "path---tags-react-4d5fc15462d128f47187.js.map"
+    ],
     "path---projects": [
       "path---projects-a0e39f21c11f6a62c5ab.js",
       "path---projects-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---tags-resource": [
+      "path---tags-resource-7eb1f27e7028d6ee2147.js",
+      "path---tags-resource-7eb1f27e7028d6ee2147.js.map"
+    ],
+    "path---tags-icons": [
+      "path---tags-icons-bdc005c9b8c8d8d5b538.js",
+      "path---tags-icons-bdc005c9b8c8d8d5b538.js.map"
     ],
     "component---src-pages-tech-js": [
       "component---src-pages-tech-js-c367b329f663fb03b1a8.js",
       "component---src-pages-tech-js-c367b329f663fb03b1a8.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-a78cee69a2e9b67dff4b.js",
-      "component---src-layouts-index-js-a78cee69a2e9b67dff4b.js.map"
-    ],
-    "path---tags-user-experience-ux": [
-      "path---tags-user-experience-ux-cfe82b38908bc84d5457.js",
-      "path---tags-user-experience-ux-cfe82b38908bc84d5457.js.map"
+      "component---src-layouts-index-js-da3cb6e3f0c5bf6518b5.js",
+      "component---src-layouts-index-js-da3cb6e3f0c5bf6518b5.js.map"
     ],
     "path---index": [
-      "path---index-f874cc4107c5299e9ed9.js",
-      "path---index-f874cc4107c5299e9ed9.js.map"
+      "path---index-fcb92dfa3cba4bd6ea38.js",
+      "path---index-fcb92dfa3cba4bd6ea38.js.map"
     ],
     "path---tags-website": [
-      "path---tags-website-0b58a25beddf76c1e18e.js",
-      "path---tags-website-0b58a25beddf76c1e18e.js.map"
+      "path---tags-website-4623b8ae7e8aeddff0be.js",
+      "path---tags-website-4623b8ae7e8aeddff0be.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-74ded1194c386f10d1bb.js",
@@ -64,9 +76,13 @@
       "commons-e0a4d3a61ab0efef38cf.js",
       "commons-e0a4d3a61ab0efef38cf.js.map"
     ],
+    "path---simple-icons-project": [
+      "path---simple-icons-project-160d3addd9b2f0f284d9.js",
+      "path---simple-icons-project-160d3addd9b2f0f284d9.js.map"
+    ],
     "component---src-pages-articles-js": [
-      "component---src-pages-articles-js-804c551d7409f2350a73.js",
-      "component---src-pages-articles-js-804c551d7409f2350a73.js.map"
+      "component---src-pages-articles-js-3c388804faba5b0503f3.js",
+      "component---src-pages-articles-js-3c388804faba5b0503f3.js.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
@@ -77,36 +93,36 @@
       "path---contact-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-templates-post-js": [
-      "component---src-templates-post-js-8eab1a326ac12a9b77ce.js",
-      "component---src-templates-post-js-8eab1a326ac12a9b77ce.js.map"
+      "component---src-templates-post-js-f79dde8b4f247ebfd1ce.js",
+      "component---src-templates-post-js-f79dde8b4f247ebfd1ce.js.map"
     ],
     "component---src-pages-projects-js": [
       "component---src-pages-projects-js-37f7ae41fa0ede42ace7.js",
       "component---src-pages-projects-js-37f7ae41fa0ede42ace7.js.map"
     ],
     "path---tags-git": [
-      "path---tags-git-1fd3b796c19f43dba800.js",
-      "path---tags-git-1fd3b796c19f43dba800.js.map"
+      "path---tags-git-bee00144b8e20ec03aa5.js",
+      "path---tags-git-bee00144b8e20ec03aa5.js.map"
     ],
     "path---ux-as-a-holistic-responsibility": [
-      "path---ux-as-a-holistic-responsibility-1e4d4b697172e88e3f9b.js",
-      "path---ux-as-a-holistic-responsibility-1e4d4b697172e88e3f9b.js.map"
+      "path---ux-as-a-holistic-responsibility-6fd5c7e692eb48b94542.js",
+      "path---ux-as-a-holistic-responsibility-6fd5c7e692eb48b94542.js.map"
     ],
     "path---adding-tab-completion-for-git-on-mac-os": [
-      "path---adding-tab-completion-for-git-on-mac-os-27f97f5530315e98c0ce.js",
-      "path---adding-tab-completion-for-git-on-mac-os-27f97f5530315e98c0ce.js.map"
+      "path---adding-tab-completion-for-git-on-mac-os-169d45ea3c427714b07d.js",
+      "path---adding-tab-completion-for-git-on-mac-os-169d45ea3c427714b07d.js.map"
     ],
     "app": [
-      "app-c3a01d4579cbc3581d23.js",
-      "app-c3a01d4579cbc3581d23.js.map"
+      "app-9c0e23a24a737f7fea2f.js",
+      "app-9c0e23a24a737f7fea2f.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---tags-code": [
-      "path---tags-code-aac74ee61433ea0f5899.js",
-      "path---tags-code-aac74ee61433ea0f5899.js.map"
+      "path---tags-code-6ed2005ac52e52514762.js",
+      "path---tags-code-6ed2005ac52e52514762.js.map"
     ],
     "component---src-pages-about-js": [
       "component---src-pages-about-js-ae058c2ae260e01be4df.js",
