@@ -3,9 +3,6 @@ import GatsbyLink from 'gatsby-link';
 import PostListingItem from '../components/PostListingItem';
 import TagsList from '../components/TagsList';
 
-// import HomeIcon from 'react-icons/lib/fa/home';
-// import TagsIcon from 'react-icons/lib/fa/tags';
-
 import Link from '../components/Link';
 
 // import '../css/tags.css';

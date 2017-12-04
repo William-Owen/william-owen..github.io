@@ -15,6 +15,8 @@ const aboutPage = () => (
 
     	<main>
 
+            <p>I am available for international project work and for contracts in the London, Hertfordshire and Cambridgeshire area. International contracts undertaken selectivly.</p>
+
     		<p>You can me on contact <a href="tel:+442070978899">+44 (0) 207 097 8899</a></p>
 
     		<p>You can find me on the following: -</p>

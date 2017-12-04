@@ -21,7 +21,7 @@ const TemplateWrapper = ({ children }) => (
         <h1>
 
           <Link to="/">William Owen UK Limited</Link>
-          <span className="sub-title">London based Internet Development Consultatancy and Contracting</span>
+          <span className="sub-title">Internet Development Consultatancy and Contracting</span>
 
         </h1>
 
