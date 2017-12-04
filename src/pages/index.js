@@ -18,7 +18,7 @@ export default function Index({ data }) {
 
 						<h1>Technical solutions that deliver elegent experiences for humans</h1>
 
-						<p>Over 20 years experaince delivering customer faceing websites, internet based solutions and creative visual design for a wide range of companies and organisations.</p>
+						<p>Over 20 years experience delivering customer-facing websites, internet-based solutions and creative visual design for a wide range of companies and organisations.</p>
 
 					</div>
 
