@@ -1,8 +1,8 @@
 ---
-path: '/ux-as-a-holistic-responsibility'
-date: ""
+path: "/ux-as-a-holistic-responsibility"
+date: "2017-12-02T00:00:00.000Z"
 title: "User experience (UX) isn't a role; it's a responsibility "
-tags: ["User experience (UX)"]
+tags: ["User Experience (UX)"]
 ---
 
 User experience (UX) isn't a role; it's a responsibility shared across all aspects of a project.

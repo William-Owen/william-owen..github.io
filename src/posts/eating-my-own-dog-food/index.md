@@ -1,8 +1,8 @@
 ---
-path: '/eating-my-own-dog-food'
-date: "2017-07-12T17:12:33.962Z"
+path: "/eating-my-own-dog-food"
+date: "2017-07-12T00:00:00.000Z"
 title: "Eating my own dog food"
-tags: ["website"]
+tags: ["Website"]
 ---
 
 As a web developer, I should have a website. There is that old expression ["Eat Your Own Dog Food"](https://en.wikipedia.org/wiki/Eating_your_own_dog_food), and I would be suspicious of a web developer who tried to sell me their services who didn't have one.

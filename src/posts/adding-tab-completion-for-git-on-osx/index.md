@@ -1,8 +1,8 @@
 ---
 path: '/adding-tab-completion-for-git-on-macOS'
-date: "2016-09-02T17:12:33.962Z"
+date: "2016-09-02T00:00:00.000Z"
 title: "Adding tab completion for Git on macOS"
-tags: ["code", "git"]
+tags: ["Code", "Git"]
 ---
 
 I love [Git](https://git-scm.com/); [GitGub](https://github.com/) is my go-to [version and source control](https://en.wikipedia.org/wiki/Version_control) platform of choice for all my projects. For a while now I have been meaning to work out how to get tab autocomplete to work with branch names on macOS.
