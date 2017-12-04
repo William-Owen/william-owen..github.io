@@ -5,7 +5,7 @@ title: "Simple Icons project for great SVG Icons"
 tags: ["Resource", "Icons", "React"]
 ---
 
-I recently came across this fantastic project by [Dan Leech](https://twitter.com/bathtype) called Simple Icons. The project aim to create free SVG icons for popular brands. Having all these standardised and freely available in one place is a fantastic idea and I would love to see this project get more support.
+I recently came across this fantastic project by [Dan Leech](https://danleech.com/) called Simple Icons. The project aim to create free SVG icons for popular brands. Having all these standardised and freely available in one place is a fantastic idea and I would love to see this project get more support.
 
 You can clone [Simple Icons Git Hub project](https://github.com/simple-icons/simple-icons) or you can see all the icons on there site [SimpleIcons.org](SimpleIcons.org) and just download the icons you need.
 
