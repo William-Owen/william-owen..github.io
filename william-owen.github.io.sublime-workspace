@@ -1,0 +1,581 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"bol",
+				"block"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"border",
+				"border-right"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"v-",
+				"v-bind"
+			],
+			[
+				"tras",
+				"translate3d"
+			],
+			[
+				"tran",
+				"translate3d"
+			],
+			[
+				"trans",
+				"transform"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"f",
+				"field"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"head",
+				"heading-font"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"t",
+				"transform"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"gree",
+				"c-green-1"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"p",
+				"position"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"color",
+				"color-blue"
+			],
+			[
+				"la",
+				"labelPlaceholder"
+			],
+			[
+				"view",
+				"viewMode"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 84.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pto",
+				"Project Specific Syntax: Copy syntax setting to clipboard"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"TABS",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"LINT",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"lint",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"css",
+				"Format CSS: Expanded"
+			],
+			[
+				"tab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remve",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"ta",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"jade",
+				"Set Syntax: Jade"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 503.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/neotoxic/SpiderOak Backup/Projects/William Owen UL Limited/William-Owen.github.io"
+	],
+	"file_history":
+	[
+		"/Users/neotoxic/client/mustard-systems/mb-sportsbook-react/src/component/compound/EventHeader/component.js",
+		"/Users/neotoxic/client/mustard-systems/mb-sportsbook-react/src/component/compound/EventHeader/index.js",
+		"/Users/neotoxic/client/mustard-systems/mb-sportsbook-react/src/component/compound/Outcome/Outcome.styl",
+		"/Users/neotoxic/client/mustard-systems/mb-sportsbook-react/src/component/compound/MarketNavigation/MarketNavigation.styl",
+		"/Users/neotoxic/client/mustard-systems/mb-sportsbook-react/src/component/compound/UserStatus/UserStatus.styl",
+		"/Users/neotoxic/client/mustard-systems/mb-sportsbook-react/src/component/page/Register/Register.styl",
+		"/Users/neotoxic/client/mustard-systems/mb-sportsbook-react/src/component/page/HomepageSports/component.js",
+		"/Users/neotoxic/client/mustard-systems/mb-sportsbook-react/src/component/page/MarketPage/MarketPage.styl",
+		"/Users/neotoxic/client/mustard-systems/mb-sportsbook-react/src/component/page/MarketPageDarts/index.js",
+		"/Users/neotoxic/client/mustard-systems/mb-sportsbook-react/src/component/page/MarketPageDarts/component.js",
+		"/Users/neotoxic/client/mustard-systems/mb-sportsbook-react/src/component/element/Menu/Menu.styl",
+		"/Users/neotoxic/client/mustard-systems/mb-sportsbook-react/src/component/compound/EventHeader/EventHeader.styl",
+		"/Users/neotoxic/client/mustard-systems/mb-sportsbook-react/src/component/compound/MarketGroup/component.js",
+		"/Users/neotoxic/client/mustard-systems/mb-sportsbook-react/src/component/compound/MarketGroup/index.js",
+		"/Users/neotoxic/client/mustard-systems/mb-sportsbook-react/src/component/compound/MarketGroup/MarketGroup.styl",
+		"/Users/neotoxic/client/mustard-systems/mb-sportsbook-react/src/component/element/Menu/index.js",
+		"/Users/neotoxic/client/mustard-systems/mb-sportsbook-react/src/component/compound/Outcome/Outcome.md",
+		"/Users/neotoxic/client/mustard-systems/mb-sportsbook-react/src/component/page/MarketPage/component.js",
+		"/Users/neotoxic/client/mustard-systems/mb-sportsbook-react/src/component/page/MarketPage/index.js",
+		"/Users/neotoxic/client/mustard-systems/mb-sportsbook-react/package.json",
+		"/Users/neotoxic/client/mustard-systems/mb-sportsbook-react/src/index.js",
+		"/Users/neotoxic/Downloads/city.list.json",
+		"/Users/neotoxic/Desktop/william.owen.phpinfo.htm",
+		"/Users/neotoxic/projects/dvr-web-2/config/craft-scripts-master/scripts/common/common_db.sh",
+		"/Users/neotoxic/client/mustard-systems/colin-cms/casinocms.cache.json",
+		"/;.twig",
+		"/Users/neotoxic/Downloads/craft-master/web/.htaccess",
+		"/Users/neotoxic/projects/dvr-web-2/overides/craft_config/db.php",
+		"/Volumes/MusatrdVM/home/wo/colin.yaml",
+		"/Users/neotoxic/projects/dvr-droid-react/src/component/page/ProfilePage/ProfilePage.component.js",
+		"/Volumes/MusatrdVM/colin.yaml",
+		"/Users/neotoxic/Library/Caches/Cleanup At Startup/Transmit/A4591832-9E5E-4422-A974-E9A07A68BC44/colin.yaml",
+		"/Volumes/MusatrdVM/home/wo/.profile",
+		"/Volumes/MusatrdVM/home/wo/.bashrc",
+		"/Users/neotoxic/Library/Caches/Cleanup At Startup/Transmit/EBBA4A8A-7C38-4514-9FAD-AC198ED0DF0A/colin_start.sh",
+		"/Users/neotoxic/client/mustard-systems/colinbet-backup/web/ui/style/views/account-login.styl",
+		"/Users/neotoxic/client/mustard-systems/colinbet/web/app/static/site_casino.css",
+		"/Users/neotoxic/client-projects/mustard-systems/colinbet/web/app/static/site_casino.css",
+		"/Users/neotoxic/projects/deviantrobot/deviant.robot.droid.ui/src/views/podcasts/podcasts.template.jade",
+		"/Users/neotoxic/Library/Caches/Cleanup At Startup/Transmit/D61F8108-A343-4493-92EB-99CEE9D81B6C/colin.yaml",
+		"/Users/neotoxic/.bashrc",
+		"/Users/neotoxic/bin/z.sh",
+		"/Users/neotoxic/Library/Caches/Cleanup At Startup/Transmit/82878F06-BF0E-449B-B375-48C074976469/colin_update.sh",
+		"/Users/neotoxic/bin/goto-droid.sh",
+		"/Users/neotoxic/bin/droid.sh",
+		"/Users/neotoxic/Library/Caches/Cleanup At Startup/Transmit/F553C147-53D7-470B-A769-956E177BDA42/colin.yaml",
+		"/Users/neotoxic/Library/Caches/Cleanup At Startup/Transmit/5979D8CF-0449-440C-B1AF-9D82C4A88CAC/colin_update.sh",
+		"/Users/neotoxic/.ssh/config",
+		"/Users/neotoxic/projects/dvr-buildkit-react/npm-debug.log",
+		"/Users/neotoxic/projects/dvr-buildkit-react/package.json",
+		"/Users/neotoxic/projects/dvr-buildkit-react/README.md",
+		"/Users/neotoxic/projects/dvr-buildkit-react/yarn.lock",
+		"/Users/neotoxic/projects/dvr-buildkit-react/.gitignore",
+		"/Users/neotoxic/projects/dvr-buildkit-react/public/favicon.ico",
+		"/Users/neotoxic/projects/dvr-buildkit-react/src/component/page/HomePage/HomePage.md",
+		"/Users/neotoxic/projects/dvr-buildkit-react/src/component/page/HomePage/Homepage.test.js",
+		"/Users/neotoxic/projects/dvr-buildkit-react/src/component/page/LoginPage/LoginPage.component.js",
+		"/Users/neotoxic/projects/dvr-buildkit-react/src/component/page/LoginPage/LoginPage.test.js",
+		"/Users/neotoxic/projects/dvr-buildkit-react/src/component/page/HomePage/HomePage.component.js",
+		"/Users/neotoxic/Library/Caches/Cleanup At Startup/Transmit/1CC9BBF5-A1CC-406E-9E8C-D140733B2D70/colin.yaml",
+		"/Users/neotoxic/Library/Caches/Cleanup At Startup/Transmit/0785300B-56CA-4CEB-8883-F198D3562C59/.bashrc",
+		"/Users/neotoxic/Library/Caches/Cleanup At Startup/Transmit/87431DBA-2EFB-4160-817D-09FABB543A6C/.bashrc",
+		"/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/did_you_mean-1.0.0/evaluation/incorrect_words.yaml",
+		"/Users/neotoxic/.ssh/gitkraken_rsa.pub",
+		"/Users/neotoxic/client-projects/mustard-systems/mb-sportsbook-react/.gitignore",
+		"/Users/neotoxic/client-projects/mustard-systems/mb-sportsbook/src/stylus/elements/market-page.styl",
+		"/Users/neotoxic/client-projects/mustard-systems/mb-sportsbook/src/stylus/elements/header.styl",
+		"/Users/neotoxic/client-projects/mustard-systems/mb-sportsbook/src/stylus/elements/game-header.styl",
+		"/Users/neotoxic/client-projects/mustard-systems/mb-sportsbook/src/views/index/index.styl",
+		"/Users/neotoxic/client-projects/mustard-systems/mb-sportsbook/src/js/lib/howler.2.0.1.js",
+		"/Users/neotoxic/client-projects/mustard-systems/mb-sportsbook/src/stylus/variables.styl",
+		"/Users/neotoxic/client-projects/mustard-systems/mb-sportsbook/src/assets/ring-alt.svg",
+		"/Users/neotoxic/client-projects/mustard-systems/mb-sportsbook/src/assets/velocity.svg",
+		"/Users/neotoxic/client-projects/mustard-systems/mb-sportsbook/src/stylus/elements/market.styl",
+		"/Users/neotoxic/client-projects/mustard-systems/mb-sportsbook/src/views/index/index.pug",
+		"/Users/neotoxic/client-projects/mustard-systems/mb-sportsbook/src/stylus/elements/betslip.styl",
+		"/Users/neotoxic/projects/droid-1/src/index.js",
+		"/Users/neotoxic/projects/droid-1/public/index.html",
+		"/Users/neotoxic/projects/droid-1/src/willtest.js",
+		"/Users/neotoxic/projects/droid-1/src/willtest.css",
+		"/Users/neotoxic/projects/droid-1/droid-1.sublime-project",
+		"/Users/neotoxic/client-projects/mustard-systems/mb-sportsbook/src/stylus/elements/_base.styl",
+		"/Users/neotoxic/client-projects/mustard-systems/mb-sportsbook/src/stylus/elements/nav.styl",
+		"/Users/neotoxic/client-projects/mustard-systems/mb-sportsbook/src/js/script/game.js",
+		"/Users/neotoxic/client-projects/mustard-systems/mb-sportsbook/src/stylus/elements/fontello.styl",
+		"/Users/neotoxic/client-projects/mustard-systems/mb-sportsbook/src/view-templates/master.template.pug",
+		"/Users/neotoxic/client-projects/mustard-systems/mb-sportsbook/src/view-templates/standard.template.pug",
+		"/Users/neotoxic/client-projects/mustard-systems/mb-sportsbook/data.js",
+		"/Users/neotoxic/Downloads/fontello-cca2089d/css/fontello-embedded.css",
+		"/Users/neotoxic/client-projects/mustard-systems/mb-sportsbook/server.js",
+		"/Users/neotoxic/client-projects/mustard-systems/mb-sportsbook/gulpfile.js",
+		"/Users/neotoxic/client-projects/mustard-systems/mb-sportsbook/src/config.json",
+		"/Users/neotoxic/client-projects/mustard-systems/mb-sportsbook/node_modules/after/index.js",
+		"/Users/neotoxic/client-projects/mustard-systems/mb-sportsbook/node_modules/async/doWhilst.js",
+		"/Users/neotoxic/projects/deviantrobot/dvr-web-1/src/templates/_macros/content.macro.html",
+		"/Users/neotoxic/projects/deviantrobot/dvr-web-1/src/stylus/elements/article.styl",
+		"/Users/neotoxic/projects/deviantrobot/dvr-web-1/src/templates/meetups/about.styl",
+		"/Users/neotoxic/projects/deviantrobot/dvr-web-1/src/templates/team-area/_entry.html",
+		"/Users/neotoxic/projects/modelimpulse.com/src/style/elements/forms.styl",
+		"/Users/neotoxic/projects/deviantrobot/dvr-web-1/src/stylus/elements/forms.styl",
+		"/Users/neotoxic/projects/modelimpulse.com/src/style/style.styl",
+		"/Users/neotoxic/projects/deviantrobot/dvr-web-1/src/templates/_templates/master.template.html",
+		"/Users/neotoxic/projects/deviantrobot/dvr-web-1/src/templates/meetups/about.html",
+		"/Users/neotoxic/projects/deviantrobot/dvr-web-1/src/templates/meetups/index.html",
+		"/Users/neotoxic/projects/deviantrobot/dvr-web-1/src/templates/blog/index.html",
+		"/Users/neotoxic/projects/deviantrobot/dvr-web-1/src/templates/about/index.styl",
+		"/Users/neotoxic/projects/deviantrobot/dvr-web-1/src/templates/about/index.html",
+		"/Users/neotoxic/projects/deviantrobot/dvr-web-1/src/templates/blog/_entry.html",
+		"/Users/neotoxic/projects/deviantrobot/dvr-web-1/src/js/scripts/init.js",
+		"/Users/neotoxic/projects/deviantrobot/dvr-web-1/src/stylus/elements/colorbox.styl",
+		"/Users/neotoxic/Downloads/colorbox-master/example1/colorbox.css",
+		"/Users/neotoxic/Downloads/swipebox-master 2/scss/swipebox.scss",
+		"/Users/neotoxic/Downloads/swipebox-master 3/src/css/swipebox.css",
+		"/Users/neotoxic/projects/deviantrobot/dvr-web-1/craft/templates/_templates/master.template.html",
+		"/Users/neotoxic/projects/deviantrobot/dvr-web-1/craft/config/general.php",
+		"/Users/neotoxic/projects/deviantrobot/dvr-web-1/src/stylus/pages/page-homepage.styl",
+		"/Users/neotoxic/projects/deviantrobot/dvr-web-1/src/stylus/elements/comments.styl",
+		"/Users/neotoxic/projects/deviantrobot/dvr-web-1/src/stylus/elements/header.site.styl",
+		"/Users/neotoxic/projects/deviantrobot/dvr-web-1/src/stylus/elements/_base.styl",
+		"/Users/neotoxic/projects/deviantrobot/dvr-web-1/src/templates/index.html",
+		"/Users/neotoxic/projects/deviantrobot/dvr-web-1/src/stylus/elements/swipebox.min.styl",
+		"/Users/neotoxic/projects/deviantrobot/dvr-web-1/src/stylus/elements/timeline.styl",
+		"/Users/neotoxic/projects/deviantrobot/dvr-web-1/src/stylus/elements/footer.site.styl",
+		"/Users/neotoxic/projects/deviantrobot/dvr-web-1/src/js/libs/particles.2.0.0.js",
+		"/Users/neotoxic/projects/deviantrobot/dvr-web-1/src/stylus/elements/section.meetup-group-listing.styl",
+		"/Users/neotoxic/projects/deviantrobot/dvr-web-1/src/templates/minions/index.html",
+		"/Users/neotoxic/projects/deviantrobot/dvr-web-1/craft/templates/updates/_entry.html",
+		"/Users/neotoxic/projects/deviantrobot/dvr-web-1/craft/templates/updates/index.html"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 75.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 180.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "william-owen.github.io.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"marketpage",
+				"src/component/page/MarketPage/MarketPage.styl"
+			],
+			[
+				"hoepagesport",
+				"src/component/page/HomepageSports/component.js"
+			],
+			[
+				"registerst",
+				"src/component/page/Register/Register.styl"
+			],
+			[
+				"marketna",
+				"src/component/compound/MarketNavigation/MarketNavigation.styl"
+			],
+			[
+				"userstat",
+				"src/component/compound/UserStatus/UserStatus.styl"
+			],
+			[
+				"outcom",
+				"src/component/compound/Outcome/Outcome.styl"
+			],
+			[
+				"men",
+				"src/component/element/Menu/Menu.styl"
+			],
+			[
+				"outcome.st",
+				"src/component/compound/Outcome/Outcome.styl"
+			],
+			[
+				"outcome.",
+				"src/component/compound/Outcome/Outcome.md"
+			],
+			[
+				"eventheader",
+				"src/component/compound/EventHeader/EventHeader.styl"
+			],
+			[
+				"lob",
+				"web/app/templates/views/lobby.jinja2"
+			],
+			[
+				"articles",
+				"src/stylus/elements/article.styl"
+			],
+			[
+				"v",
+				"src/stylus/variables.styl"
+			],
+			[
+				"var",
+				"src/stylus/variables.styl"
+			],
+			[
+				"heade",
+				"src/stylus/elements/header.site.styl"
+			],
+			[
+				"login",
+				"src/views/login/login.pug"
+			],
+			[
+				"indepug",
+				"src/views/index/index.pug"
+			],
+			[
+				"tersmst",
+				"web/ui/style/views/terms-and-conditions.styl"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 126.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 374.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 318.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
