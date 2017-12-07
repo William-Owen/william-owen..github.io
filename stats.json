@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "path---tags-user-experience": [
-      "path---tags-user-experience-808041e3db69fa881a9f.js",
-      "path---tags-user-experience-808041e3db69fa881a9f.js.map"
+      "path---tags-user-experience-90428b36c01a49ce50d4.js",
+      "path---tags-user-experience-90428b36c01a49ce50d4.js.map"
     ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-5aa9d3acdac57d7efa5b.js",
@@ -21,8 +21,8 @@
       "path---eating-my-own-dog-food-0109828bab75418da27b.js.map"
     ],
     "path---tags": [
-      "path---tags-05eb85da2fe2bbd8395c.js",
-      "path---tags-05eb85da2fe2bbd8395c.js.map"
+      "path---tags-b3c5a8f0c8c2051d7d45.js",
+      "path---tags-b3c5a8f0c8c2051d7d45.js.map"
     ],
     "path---articles": [
       "path---articles-79c0fe0d26e02b761098.js",
@@ -37,36 +37,36 @@
       "component---src-pages-contact-js-97bdc8c30d185dbd8241.js.map"
     ],
     "path---tags-react": [
-      "path---tags-react-4d5fc15462d128f47187.js",
-      "path---tags-react-4d5fc15462d128f47187.js.map"
+      "path---tags-react-08d52ac9f4bc83617054.js",
+      "path---tags-react-08d52ac9f4bc83617054.js.map"
     ],
     "path---projects": [
       "path---projects-a0e39f21c11f6a62c5ab.js",
       "path---projects-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---tags-resource": [
-      "path---tags-resource-7eb1f27e7028d6ee2147.js",
-      "path---tags-resource-7eb1f27e7028d6ee2147.js.map"
+      "path---tags-resource-186507c5f187b8157f4d.js",
+      "path---tags-resource-186507c5f187b8157f4d.js.map"
     ],
     "path---tags-icons": [
-      "path---tags-icons-bdc005c9b8c8d8d5b538.js",
-      "path---tags-icons-bdc005c9b8c8d8d5b538.js.map"
+      "path---tags-icons-cc3e878d0b261ad55454.js",
+      "path---tags-icons-cc3e878d0b261ad55454.js.map"
     ],
     "component---src-pages-tech-js": [
       "component---src-pages-tech-js-c367b329f663fb03b1a8.js",
       "component---src-pages-tech-js-c367b329f663fb03b1a8.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-74c5815d4fcf25d185d5.js",
-      "component---src-layouts-index-js-74c5815d4fcf25d185d5.js.map"
+      "component---src-layouts-index-js-d54ff959fe0cd01baf55.js",
+      "component---src-layouts-index-js-d54ff959fe0cd01baf55.js.map"
     ],
     "path---index": [
       "path---index-fcb92dfa3cba4bd6ea38.js",
       "path---index-fcb92dfa3cba4bd6ea38.js.map"
     ],
     "path---tags-website": [
-      "path---tags-website-4623b8ae7e8aeddff0be.js",
-      "path---tags-website-4623b8ae7e8aeddff0be.js.map"
+      "path---tags-website-1a98c99e4b8af1e75fdc.js",
+      "path---tags-website-1a98c99e4b8af1e75fdc.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-74ded1194c386f10d1bb.js",
@@ -77,8 +77,8 @@
       "commons-e0a4d3a61ab0efef38cf.js.map"
     ],
     "path---simple-icons-project": [
-      "path---simple-icons-project-160d3addd9b2f0f284d9.js",
-      "path---simple-icons-project-160d3addd9b2f0f284d9.js.map"
+      "path---simple-icons-project-2aaa60cbf62292d5e2db.js",
+      "path---simple-icons-project-2aaa60cbf62292d5e2db.js.map"
     ],
     "component---src-pages-articles-js": [
       "component---src-pages-articles-js-3c388804faba5b0503f3.js",
@@ -101,8 +101,8 @@
       "component---src-pages-projects-js-37f7ae41fa0ede42ace7.js.map"
     ],
     "path---tags-git": [
-      "path---tags-git-bee00144b8e20ec03aa5.js",
-      "path---tags-git-bee00144b8e20ec03aa5.js.map"
+      "path---tags-git-b894e1bb76ced42ae5c1.js",
+      "path---tags-git-b894e1bb76ced42ae5c1.js.map"
     ],
     "path---ux-as-a-holistic-responsibility": [
       "path---ux-as-a-holistic-responsibility-6fd5c7e692eb48b94542.js",
@@ -121,8 +121,8 @@
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---tags-code": [
-      "path---tags-code-6ed2005ac52e52514762.js",
-      "path---tags-code-6ed2005ac52e52514762.js.map"
+      "path---tags-code-692fe5cb3c0b301ed79d.js",
+      "path---tags-code-692fe5cb3c0b301ed79d.js.map"
     ],
     "component---src-pages-about-js": [
       "component---src-pages-about-js-ae058c2ae260e01be4df.js",
