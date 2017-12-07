@@ -105,8 +105,7 @@ const TemplateWrapper = ({ children }) => (
 
           <a href="http://stylus-lang.com/">
 
-            <img className="svg" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSIzOTMuM3B4IiBoZWlnaHQ9IjI0MS40cHgiIHZpZXdCb3g9IjAgMCAzOTMuMyAyNDEuNCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMzkzLjMgMjQxLjQiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPjxwYXRoIGZpbGw9IiMzMzMzMzMiIGQ9Ik02MC42LDE4Ny44YzEwLjItMTIuMiwxMS40LTI0LjgsMy41LTQ4LjJjLTUtMTQuOC0xMy4zLTI2LjItNy4yLTM1LjRjNi41LTkuOCwyMC4zLTAuMyw4LjgsMTIuOGwyLjMsMS42YzEzLjgsMS42LDIwLjYtMTcuMywxMC4zLTIyLjdjLTI3LjItMTQuMi01MSwxMy4xLTQwLjUsNDQuN2M0LjUsMTMuNCwxMC44LDI3LjYsNS43LDM4LjljLTQuNCw5LjctMTIuOSwxNS40LTE4LjYsMTUuNmMtMTEuOSwwLjYtNC0yNi43LDkuNy0zMy41YzEuMi0wLjYsMi45LTEuNCwxLjMtMy40Yy0xNi45LTEuOS0yNi44LDUuOS0zMi41LDE2LjhDLTEzLjIsMjA2LjcsMzQuOSwyMTguNCw2MC42LDE4Ny44eiIvPjxwYXRoIGZpbGw9IiMzMzMzMzMiIGQ9Ik0zNTcuNiw5NC42YzMuOSw5LjYsOS44LDE5LjEsNi4zLDI3LjVjLTIuOSw3LjItNi43LDEwLjItMTAuOSwxMC45Yy01LjksMS00LjMtMTcuNSw1LjgtMjNjMC45LTAuNSwyLjItMi45LDEtNC4zYy0xMi44LTAuNy0yMCw1LjQtMjMuOSwxMy41Yy0xMS4zLDIzLjcsMjUuNiwzMC4yLDQzLjcsNi45YzcuMi05LjMsNy41LTE4LjUsMC42LTM1LjJjLTQuNC0xMC42LTExLjEtMTguNS02LjktMjUuNWM0LjUtNy40LDE1LjMtMSw3LjIsOC45bDEuOCwxYzEwLjUsMC42LDE0LjgtMTMuNCw2LjgtMTYuOUMzNjgsNDkuNCwzNDguMyw3Mi4xLDM1Ny42LDk0LjZ6Ii8+PHBhdGggZmlsbD0iIzMzMzMzMyIgZD0iTTIyNCw2OS4zYy03LjMtNS44LTI3LjgsMy45LTMzLjYsMTguM2MtNy4zLDE4LjMtMTguMSw0NS0yOC43LDU2LjdjLTExLjIsMTIuMy0xMi4zLDIuOC0xMS4yLTQuM2MyLjYtMTYuNywxOC45LTU1LjQsMjcuOC02Ni4zYy0zLjMtNC45LTI0LjktNC4yLTM5LjksMTkuMWMtNS42LDguOC0xOC40LDM4LjEtMzIuNiw2MS4yYy0zLjEsNS03LDEuNS00LTEwLjJjMy40LTEzLjUsMTMuNC01MC42LDI2LjMtNzkuOGMzMy44LTYuNyw2OS43LTExLjQsOTcuMi0xMS41YzMuNy0xLDYuMi00LjMsMC00LjVjLTIzLjctMC44LTU5LjMsMi05Mi42LDYuMmM2LjQtMTIuOCwxMy4zLTIzLDIwLjMtMjcuM0MxNDUuNCwyMi4xLDEzMCwyNCwxMjEuMiwzN2MtMy45LDUuOC03LjgsMTIuOC0xMS41LDIwLjRjLTI0LjQsMy44LTQ1LjMsOC4xLTU1LjksMTIuMWMtMTEsNC4yLTkuOCwxNy41LTMuMSwxNWMxMy45LTUuMiwzMi43LTEwLjYsNTMuNi0xNS40QzkxLDk5LjEsODAuNiwxMzQuNSw3OC4xLDE0OC45Yy02LjIsMzUsMTUuNSwzNC44LDI2LjEsMjFjMTEuNS0xNS4xLDM1LjUtNjguMiwzOS4yLTczLjhjMS4xLTEuOSwyLjYtMC45LDEuOCwwLjhjLTI2LjgsNTMuNS0yNC41LDc0LjItMi44LDY5LjZjOS44LTIuMSwyNi43LTE4LjksMzEuMS0yNy42YzAuOS0yLjEsMi44LTEuOSwyLjQtMWMtMTcsNDQuMS0zOC42LDc5LjgtNTMuMSw5MWMtMTMuMiwxMC4xLTIzLTExLjgsMjMuNy00My4yYzYuOS00LjcsMy43LTExLjEtNC4xLTguOWMwLDAsMCwwLDAsMGMtMjQuMSwzLjgtOTMuMSwyNS43LTEyMy40LDQ2LjdjLTIuMywxLjYtNC40LDIuOS00LjMsNi4yYzAuMSwxLjksMy40LDEuMiw1LDAuMmMzOS4yLTIzLjUsNzEuMy0zMi43LDEwOC4xLTQwLjRjMC41LDAuMiwxLjEsMC4zLDEuNiwwLjFjMS43LTAuNCwxLjYsMC41LDAuNSwxLjJjLTIuNSwxLjQtNSwyLjctNS42LDIuOWMtMjQuOCw5LjctMzkuOCwzMS4xLTM0LjUsNDJjNC41LDkuNCwyOC44LDYsNDAuMy0wLjJjMjguMi0xNS4zLDQ4LjctNDUuMyw2Mi43LTg2LjdDMjA1LDExMi4xLDIyMC40LDcwLjUsMjI0LDY5LjN6Ii8+PHBhdGggZmlsbD0iIzMzMzMzMyIgZD0iTTM4Ny45LDE1NGMtNDUuOS02LTE0NC45LDItMTg4LjYsMTMuNmMtMTMsMy40LTkuNCwxMC4zLTIuOCw5YzAuMSwwLDIuOS0wLjcsMy0wLjdjMzUuOS03LDEyMy0xMy4xLDE3My44LTMuNEMzNzkuNCwxNzMuNiwzOTcuNywxNTUuMywzODcuOSwxNTR6Ii8+PHBhdGggZmlsbD0iIzMzMzMzMyIgZD0iTTIzNi44LDE0OC42YzEyLjgtNi40LDMxLjgtNDYsNDQuMy02Ny43YzAuOS0xLjYsMi41LTAuMywxLjYsMC44Yy0zMS42LDU0LjQtMTguMiw2MC43LTUuNyw1OS45YzE2LjctMSwzMi4xLTI1LDM1LjUtMzAuNGMxLjQtMi4xLDIuMi0wLjQsMS40LDEuMWMtMC44LDIuNS0zLjcsNi45LTYuNCwxMi45Yy0zLjgsOC41LDAuMiwxMS44LDMuNSwxMy4zYzUuMiwyLjUsMTkuNCwwLjksMjEuNi03LjhjLTE0LjItMC4zLDE5LjgtNjcuMywyMy4zLTcxLjRjLTkuNS01LjUtMjQuMiwwLjUtMzAuOSwxMy43Yy0xNC4zLDI4LjMtMjYuMyw1MS4xLTMzLjgsNTEuNWMtMTQuNiwwLjgsMTYuOC02My4xLDIxLjktNjUuMWMtMy4xLTQuNS0yMy0yLjYtMzQuMSwxNC42Yy00LDYuMi0yOC40LDQ5LjQtMzQuNCw1Ni41Yy0xMC42LDEyLjYtMTEuNCwxLjgtOC40LTEwLjhjMS00LjMsMi43LTkuOCw0LjktMTUuOWM3LTE1LjgsMTQuNS0yMC44LDE5LjEtMjUuOWMzMC45LTM0LjMsNDguNi02Mi4xLDQxLjYtNzNjLTYuMi05LjctMjYuOS01LjQtNDAuMiwxNC42Yy0yNC41LDM2LjctNDcuMSw4Ny01MCwxMTBDMjA4LjgsMTUyLjUsMjI1LjUsMTU0LjIsMjM2LjgsMTQ4LjZ6IE0yNDkuOCw4MS4zYzEuMS0yLjUsMS44LTMuMiwzLjctNy40YzAsMCwwLDAsMCwwYzExLTI0LjIsMjQuOC00OS43LDM0LjMtNjEuNmM1LjktNi4yLDE0LjIsMi4yLTAuOCwyNS4yYy04LjgsMTMuNi0xOC44LDI2LjEtMjkuNywzNy4xYzAsMCwwLDAsMCwwLjFjLTIuOCwzLjEtNS4zLDUuNy02LjQsNy4yQzI1MC4xLDgyLjksMjQ5LjIsODIuNywyNDkuOCw4MS4zeiIvPjwvZz48L3N2Zz4=" />
-
+            <ReactSVG path="https://unpkg.com/simple-icons@latest/icons/stylus.svg" className="svg" wrapperClassName="svg-wrapper" />
             <p>Stylus</p>
 
           </a>
@@ -160,14 +159,21 @@ const TemplateWrapper = ({ children }) => (
 
           </a>
 
-          <a href="https://webpack.js.org/">
+          <a href="https://www.sublimetext.com/">
 
             <ReactSVG path="https://unpkg.com/simple-icons@latest/icons/sublimetext.svg" className="svg" wrapperClassName="svg-wrapper" />
             <p>Sublime Text 3</p>
 
           </a>
 
-          <a href="https://webpack.js.org/">
+          <a href="https://www.google.com/chrome/index.html">
+
+            <ReactSVG path="https://unpkg.com/simple-icons@latest/icons/googlechrome.svg" className="svg" wrapperClassName="svg-wrapper" />
+            <p>Google Chrome</p>
+
+          </a>
+
+          <a href="https://github.com/simple-icons/simple-icons">
 
             <ReactSVG path="https://unpkg.com/simple-icons@latest/icons/simpleicons.svg" className="svg" wrapperClassName="svg-wrapper" />
             <p>Simple Icons</p>
@@ -182,12 +188,9 @@ const TemplateWrapper = ({ children }) => (
             <a href="https://www.npmjs.com/package/react-svg">react-svg</a>
             <a href="https://typekit.com/">Adobe Typekit</a>
 
-
           </div>
 
         </div>
-
-
 
         <p className="company-details">William Owen UK LIMITED registered in England no. 08243425. VAT number 152978378</p>
         <p className="copyright">&copy; 2017 William Owen UK LIMITED</p>
