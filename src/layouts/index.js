@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import ReactSVG from 'react-svg';
+import Obfuscate from 'react-obfuscate'
 
 import './index.styl'
 
@@ -25,16 +26,6 @@ const TemplateWrapper = ({ children }) => (
 
         </h1>
 
-        {/*
-
-          <div className="availability">
-
-           <Link to="/contact/">Currently available for project work</Link>
-
-          </div>
-
-        */}
-
       </div>
 
       <nav>
@@ -42,9 +33,8 @@ const TemplateWrapper = ({ children }) => (
         <div className="page">
 
           <Link activeClassName="active" exact to="/"><span>Home</span></Link>
-          {/*<Link activeClassName="active" exact to="/about/">About</Link>*/}
           <Link activeClassName="active" exact to="/articles/"><span>Articles</span></Link>
-          {/*<Link activeClassName="active" exact to="/projects">Projects</Link>*/}
+          <Link activeClassName="active" exact to="/projects/"><span>Projects</span></Link>
           <Link activeClassName="active" exact to="/tech"><span>Tech Stack</span></Link>
           <Link activeClassName="active" exact to="/contact/"><span>Contact</span></Link>
 
@@ -66,15 +56,32 @@ const TemplateWrapper = ({ children }) => (
 
         <nav>
 
-          <a href="https://twitter.com/twilowen">Twitter: @twilowen</a>
-          <a href="https://github.com/William-Owen">GitHub: William-Owen</a>
-          <a href="www.linkedin.com/in/williamowenuk">LinkedIn</a>
+          <a href="https://twitter.com/twilowen">
+
+            <ReactSVG path="https://unpkg.com/simple-icons@latest/icons/twitter.svg" />
+            Twitter: @twilowen
+
+          </a>
+
+          <a href="https://github.com/William-Owen">
+
+            <ReactSVG path="https://unpkg.com/simple-icons@latest/icons/github.svg" />
+            GitHub: William-Owen
+
+          </a>
+
+          <a href="www.linkedin.com/in/williamowenuk">
+
+            <ReactSVG path="https://unpkg.com/simple-icons@latest/icons/linkedin.svg" />
+            LinkedIn
+
+          </a>
 
         </nav>
 
         <div className="contact">
 
-          <p>You can contact me on <a href="tel:+442070978899">+44 (0) 207 097 8899</a></p>
+          <p>You can contact me on <Obfuscate tel='+44 207 097 8899' /> <br /> or email me at <Obfuscate email='enquiries@william-owen.co.uk' headers={ {subject:'Enquiry from the website'} } /></p>
 
         </div>
 
@@ -177,6 +184,13 @@ const TemplateWrapper = ({ children }) => (
 
             <ReactSVG path="https://unpkg.com/simple-icons@latest/icons/simpleicons.svg" className="svg" wrapperClassName="svg-wrapper" />
             <p>Simple Icons</p>
+
+          </a>
+
+          <a href="https://github.com/simple-icons/simple-icons">
+
+            <ReactSVG path="https://unpkg.com/simple-icons@latest/icons/adobetypekit.svg" className="svg" wrapperClassName="svg-wrapper" />
+            <p>Adobe Typekit</p>
 
           </a>
 

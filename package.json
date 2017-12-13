@@ -16,6 +16,7 @@
     "gatsby-source-filesystem": "^1.5.8",
     "gatsby-transformer-remark": "^1.7.22",
     "gh-pages": "^1.1.0",
+    "react-obfuscate": "^1.1.4",
     "react-svg": "^2.2.2"
   },
   "keywords": [
